@@ -20,3 +20,15 @@ function fordisplay(value) {
       removeZero()
       document.getElementById("output").innerHTML += value;
 }
+
+function solve() {
+     removeZero()
+     var equation = document.getElementById("output").innerHTML;
+     var solved = eval(equation);
+     document.getElementById('output').innerHTML = solved;
+}
+
+function add() {
+    removeZero()
+    var addSum = document.getElementById("output").innerHTML;
+  }            
